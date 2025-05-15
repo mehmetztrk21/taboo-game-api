@@ -1,0 +1,8 @@
+node_modules
+triggerdb.json
+package-*.json
+yarn.lock
+yarn-error.log
+yarn-debug.log
+dist
+knexctl.json

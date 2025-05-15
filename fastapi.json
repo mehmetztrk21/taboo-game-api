@@ -1,0 +1,22 @@
+{
+  "name": "dyno-api",
+  "port": 5001,
+  "deps": [
+    {
+      "name": "fastapi-next",
+      "version": "latest"
+    }
+  ],
+  "build": {
+    "bundle": false,
+    "compress": false,
+    "mode": "default",
+    "output": "dist"
+  },
+  "routers": [
+    {
+      "type": "rest",
+      "path": "routers"
+    }
+  ]
+}
